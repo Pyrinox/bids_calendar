@@ -15,8 +15,11 @@ ul {
 }
 
 li { 
+    list-style: none;
     padding-left: 1em; 
     text-indent: -.7em;
+/*    color: #003262; 
+    font-size: 30px;*/
 }
 
 #content {
@@ -27,14 +30,14 @@ li {
     content: "• ";
     color: #003262; /* or whatever color you prefer */
     font-size: 30px;
-    position:relative;
-    top: 5px;
+/*    position:relative;
+    top: 5px;*/
 }
 
 .weekly:before {
     content: "• ";
     color: #FDB515; /* or whatever color you prefer */
     font-size: 30px;
-    position:relative;
-    top: 5px;
+/*    position:relative;
+    top: 5px;*/
 }
