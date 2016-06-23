@@ -18,13 +18,13 @@
     </div>
 
     <style>
-        .legend { list-style: none;}
+        .legend { list-style: none;}  
         .legend:after { clear: both;}
         .legend li { float: left; margin-right: 10px; }
         .legend span { border: 1px solid #ccc; float: left; width: 12px; height: 12px; margin: 2px; margin-right: 16px;}
         /* your colors */
-        .legend .redbullet { background-color: #FF0000; }
-        .legend .greenbullet { background-color: #009900; }
+        .legend .redbullet { background-color: #FDB515; }
+        .legend .greenbullet { background-color: #003262; }
 
 
 
@@ -43,14 +43,21 @@
             margin-top: 10;
         }
 
+
         .single:before {
             content: "• ";
-            color: green; /* or whatever color you prefer */
+            color: #003262; /* or whatever color you prefer */
+            font-size: 30px;
+            position:relative;
+            top: 5px;
         }
 
         .weekly:before {
             content: "• ";
-            color: red; /* or whatever color you prefer */
+            color: #FDB515; /* or whatever color you prefer */
+            font-size: 30px;
+            position:relative;
+            top: 5px;
         }
 
     </style>
